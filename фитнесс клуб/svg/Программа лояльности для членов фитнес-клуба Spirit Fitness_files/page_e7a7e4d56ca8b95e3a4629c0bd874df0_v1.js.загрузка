@@ -1,0 +1,10 @@
+
+; /* Start:"a:4:{s:4:"full";s:69:"/local/templates/spiritfit-v3/js/loyalty-program.min.js?1711622894362";s:6:"source";s:51:"/local/templates/spiritfit-v3/js/loyalty-program.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+$(document).ready(function(){var i;$(".level-item__image").each(function(){var i=$(this),t=i.width();i.height(t/1.84)}),768<$(window).width()&&(i=0,$(".loyalty-сondition__item").each(function(){$(this).height()>i&&(i=$(this).height())}).height(i))});var open_accrodion=function(i){$(i).toggleClass("active"),$(i).find(".b-accordion__content").slideToggle(300)};
+/* End */
+;
+; /* Start:"a:4:{s:4:"full";s:89:"/local/templates/spiritfit-v3/components/bitrix/news.list/faq/script.min.js?1711622903562";s:6:"source";s:71:"/local/templates/spiritfit-v3/components/bitrix/news.list/faq/script.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
+var open_accrodion=function(a){$(a).toggleClass("active"),$(a).find(".b-accordion__content").slideToggle(300)},set_section=function(a,t){$(a).hasClass("active")||($(".b-faq__tab.active").hide(300).removeClass("active"),$(`.b-faq__tab[data-section="${t}"]`).show(300,function(){var a=1200<$(window).width()?$(this).offset().top-200:$(this).offset().top-150;$("html, body").animate({scrollTop:a},300)}).addClass("active"),$(".b-faq__tab-link.active").removeClass("active"),$(a).addClass("active"))};$(document).ready(function(){$(".b-faq__tab.active").show(300)});
+/* End */
+;; /* /local/templates/spiritfit-v3/js/loyalty-program.min.js?1711622894362*/
+; /* /local/templates/spiritfit-v3/components/bitrix/news.list/faq/script.min.js?1711622903562*/
