@@ -52,10 +52,12 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 32px;
+    transition: .7s;
 }
 
 nav ul li a:hover {
     color: red;
+    transition: .7s;
 }
 
 .button {
@@ -67,16 +69,17 @@ nav ul li a:hover {
 .button button {
     padding: 15px 30px;
     border-radius: 10px;
+    transition: .7s;
 }
 
 .button button:hover {
     background: red;
     border-radius: red;
+    transition: .7s;
 }
 
 .container {
     width: 80%;
-    height: 100px;
     margin: 0 auto;
 }
 
@@ -86,15 +89,18 @@ nav ul li a:hover {
 
 .home {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.left_home h1{
-font-size: 40px;
+
+.left_home h1 {
+    font-size: 40px;
 }
-.right_home{
+
+.right_home {
     width: 500px;
 }
-.right_home .ak{
+
+.right_home .ak {
     font-size: 40px;
     font-size: 40px;
     background-image: linear-gradient(90deg, #e03838 3.26%, #7b27ef 98.07%);
@@ -104,7 +110,8 @@ font-size: 40px;
     -webkit-box-decoration-break: clone;
     margin: 10px 0;
 }
-.right_home .but_ak{
+
+.right_home .but_ak {
     font-size: 40px;
     background-image: linear-gradient(90deg, #e03838 3.26%, #7b27ef 98.07%);
     -webkit-background-clip: text;
@@ -113,11 +120,13 @@ font-size: 40px;
     -webkit-box-decoration-break: clone;
     margin: 0 auto;
 }
-.right_home p{
-    margin: 20px  auto;
+
+.right_home p {
+    margin: 20px auto;
     font-size: 22px;
 }
-.right_home button{
+
+.right_home button {
     border: none;
     padding: 50px;
     display: inline-block;
@@ -137,8 +146,109 @@ font-size: 40px;
     overflow: hidden;
     border: 0;
 }
-.right_home button:hover{
+
+.right_home button:hover {
     color: #fff;
     background-image: linear-gradient(90deg, #e23834 3.26%, #7a27f1 98.07%);
     text-decoration: none;
+}
+
+.card {
+    width: 323px;
+    height: 350px;
+    background: #f5f5f4;
+    transition: .7s;
+}
+
+.card:hover {
+    transition: .7s;
+    transform: translate(0, -50px)
+}
+
+.card img {
+    width: 323px;
+    height: 236.92px;
+}
+
+.mb_slader {
+    margin-top: 100px;
+}
+
+.card h1 {
+    margin: 25px auto;
+    width: 323px;
+    height: 43px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.plus {
+    display: flex;
+    gap: 30px;
+}
+
+footer {
+    margin-top: 50px;
+    background: #333;
+}
+
+.footer_cont {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 400px; */
+}
+
+.fc_left nav ul {
+    list-style: none;
+    display: block;
+
+}
+
+.fc_left nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .7s;
+}
+
+.fc_left nav ul li a:hover {
+    color: red;
+    transition: .7s;
+}
+
+.messegen {
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+.fc_right {
+    align-content: center;
+}
+.about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+}
+.left_ab{
+    width: 415px;
+    height: 270px;
+}
+.left_ab h1{
+    text-align: center;
+    font-size: 40px;
+}
+.about_us{
+    margin-top: 100px;
+}
+.about img{
+    width: 790px;
+    height: 526px;
+}
+.cont_ab{
+    gap: 50px;
 }
