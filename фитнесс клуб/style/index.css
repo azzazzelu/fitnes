@@ -221,7 +221,8 @@ footer {
 .messegen {
     margin: 0 auto;
     display: flex;
-    gap: 25px;height: 105px;
+    gap: 25px;
+    height: 105px;
     align-items: center;
 }
 
@@ -272,7 +273,8 @@ footer {
     height: 534px;
 }
 
-.price {margin: 10px 0;
+.price {
+    margin: 10px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -338,12 +340,73 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.price_tx{
+
+.price_tx {
     margin: 0 0 0 0;
     font-size: 22px;
 }
-.loyalty_card{
-    width: 404px;
+
+.loyalty_card {
+    width: 455px;
     height: 518px;
     background: #f5f5f4;
+    text-align: center;
+    line-height: 40px;
+}
+
+.loyalty_card img {
+    width: 455px;
+}
+
+.loyalty_card span {
+    background: linear-gradient(90deg, #e23834 3.26%, #7a27f1 98.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.loyalty_card h1 {
+    font-size: 42px;
+
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.loyalty_card h2 {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.loyalty_cont {
+    display: flex;
+    gap: 30px;
+}
+
+.fc_left nav ul {
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    height: 105px;
+    align-items: center;
+}
+
+.fc_mid {
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+   color: white;
+    align-items: center;
+}
+
+.fc_mid h1 {
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+    color: white;
+    align-items: center;
 }
